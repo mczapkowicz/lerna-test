@@ -1,0 +1,15 @@
+.idea
+node_modules
+.yarn/install-state.gz
+.yarn/cache
+.turbo
+.DS_Store
+coverage
+build-storybook.log
+
+# Build
+dist
+typings
+storybook-static
+tsconfig.tsbuildinfo
+.rollup.cache

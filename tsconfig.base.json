@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "composite": false,
+    "downlevelIteration": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "noUnusedParameters": false,
+    "noUnusedLocals": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "importHelpers": true,
+    "removeComments": true,
+    "declarationMap": true,
+    "declaration": true,
+    "module": "esnext",
+    "target": "es5",
+    "jsx": "react",
+    "baseUrl": "./packages",
+    "typeRoots": ["./node_modules/@types", "./types"],
+    "paths": {
+      "@keen.io/*": ["packages/*"]
+    }
+  },
+  "exclude": [
+    "webpack.**.ts",
+    "**/*.stories.tsx",
+    "**/*.test.ts",
+    "**/*.test.tsx"
+  ]
+}
