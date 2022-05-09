@@ -1,6 +1,6 @@
 {
   "name": "@keen.io/test-2",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Test 2",
   "license": "MIT",
   "main": "src/index.ts",
@@ -17,7 +17,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@keen.io/test-1": "^0.0.0"
+    "@keen.io/test-1": "^0.1.0"
   },
   "peerDependencies": {
     "react": "^18.1.0"
