@@ -22,7 +22,8 @@
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "build": "turbo run build"
+    "build": "turbo run build",
+    "create-version": "lerna version --conventional-commits"
   },
   "workspaces": [
     "packages/*"
