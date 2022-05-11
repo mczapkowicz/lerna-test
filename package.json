@@ -10,7 +10,8 @@
     "@storybook/react": "^6.4.22",
     "@storybook/testing-library": "^0.0.11",
     "babel-loader": "^8.2.5",
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "commitizen": "^4.2.4"
   },
   "dependencies": {
     "@types/node": "^17.0.31",
@@ -27,5 +28,10 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
