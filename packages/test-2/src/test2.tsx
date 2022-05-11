@@ -5,6 +5,7 @@ import {Test1} from "@keen.io/test-1";
 const Test2 = () => (
 
   <div style={{background: 'teal'}}>
+    TEST:
     <Test1/>
   </div>
 );
