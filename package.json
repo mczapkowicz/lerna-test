@@ -24,7 +24,22 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "build": "turbo run build",
-    "create-version": "lerna version --conventional-commits"
+    "create-version": "lerna version --conventional-commits",
+    "prepublish": "node ./prepublish.js"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "yarn madge",
+      "yarn prettier",
+      "eslint --fix",
+      "git add *"
+    ]
   },
   "workspaces": [
     "packages/*"

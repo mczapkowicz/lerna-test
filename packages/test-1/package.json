@@ -13,7 +13,6 @@
     "dist"
   ],
   "scripts": {
-    "prebuild": "rimraf dist && rimraf tsconfig.tsbuildinfo",
     "build": "tsc"
   },
   "peerDependencies": {
