@@ -13,7 +13,7 @@ packageNames.map(packageName => {
   const packageData = require(packageLocation);
   packageData.main = packageData.main.replace('src/index.ts', 'dist/index.js');
   packageData.module = packageData.module.replace('src/index.ts', 'dist/index.js');
-  packageData.types = packageData.types.replace('src/index.d.ts', 'dist/index.d.ts');
+  packageData.types = packageData.types.replace('src/index.d.ts', 'typings/index.d.ts');
   fs.writeFile(packageLocation, JSON.stringify(packageData, null, 2), function (err) {
     if (err) throw err;
   });

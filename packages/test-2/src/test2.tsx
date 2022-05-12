@@ -2,7 +2,7 @@ import React from 'react';
 
 const Test2 = () => (
   <div style={{ background: 'teal' }}>
-    TEST:
+    TESTY:
   </div>
 );
 
