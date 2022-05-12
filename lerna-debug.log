@@ -1,4 +1,4 @@
-54 error Error: Command failed with exit code 1: git commit -F /private/var/folders/8d/32b3hd5x66s8_kbf13h06kgh0000gn/T/e9c85a4c-cac8-4cc6-b0ea-af1a3a0a4efa/lerna-commit.txt
+54 error Error: Command failed with exit code 1: git commit -F /private/var/folders/8d/32b3hd5x66s8_kbf13h06kgh0000gn/T/528e1e72-a211-429e-a962-460189c9808f/lerna-commit.txt
 54 error
 54 error > test
 54 error > jest
@@ -9,15 +9,16 @@
 54 error Test Suites: 1 passed, 1 total
 54 error Tests:       1 passed, 1 total
 54 error Snapshots:   0 total
-54 error Time:        0.227 s, estimated 1 s
+54 error Time:        0.229 s, estimated 1 s
 54 error Ran all test suites.
-54 error ⧗   input: chore(release): Publish [skip ci]
+54 error ⧗   input: chore
 54 error
-54 error  - @maykelknight/test-1@0.5.0
-54 error  - @maykelknight/test-2@0.4.0
-54 error ✖   subject must not be sentence-case, start-case, pascal-case, upper-case [subject-case]
+54 error  - @maykelknight/test-1@0.6.0
+54 error  - @maykelknight/test-2@0.5.0
+54 error ✖   subject may not be empty [subject-empty]
+54 error ✖   type may not be empty [type-empty]
 54 error
-54 error ✖   found 1 problems, 0 warnings
+54 error ✖   found 2 problems, 0 warnings
 54 error ⓘ   Get help: https://github.com/conventional-changelog/commitlint/#what-is-commitlint
 54 error
 54 error husky - commit-msg hook exited with code 1 (error)

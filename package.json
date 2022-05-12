@@ -55,19 +55,6 @@
     "prettier": "prettier --write 'packages/**/*.{js,ts,tsx,json}'",
     "prepare": "husky install"
   },
-  "husky": {
-    "hooks": {
-
-    }
-  },
-  "lint-staged": {
-    "*.{ts,tsx}": [
-      "yarn madge",
-      "yarn prettier",
-      "eslint --fix",
-      "git add *"
-    ]
-  },
   "workspaces": [
     "packages/*"
   ],
