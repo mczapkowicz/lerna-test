@@ -1,0 +1,27 @@
+54 error Error: Command failed with exit code 1: git commit -F /private/var/folders/8d/32b3hd5x66s8_kbf13h06kgh0000gn/T/07db37a8-468b-444b-ade9-6a361146aa2e/lerna-commit.txt
+54 error
+54 error > test
+54 error > jest
+54 error
+54 error PASS packages/test-1/src/test1.test.tsx
+54 error   ✓ test (2 ms)
+54 error
+54 error Test Suites: 1 passed, 1 total
+54 error Tests:       1 passed, 1 total
+54 error Snapshots:   0 total
+54 error Time:        0.23 s, estimated 1 s
+54 error Ran all test suites.
+54 error ⧗   input: chore(release): Publish [skip ci]
+54 error
+54 error  - @maykelknight/test-1@0.4.0
+54 error  - @maykelknight/test-2@0.3.0
+54 error ✖   subject must not be sentence-case, start-case, pascal-case, upper-case [subject-case]
+54 error
+54 error ✖   found 1 problems, 0 warnings
+54 error ⓘ   Get help: https://github.com/conventional-changelog/commitlint/#what-is-commitlint
+54 error
+54 error husky - commit-msg hook exited with code 1 (error)
+54 error     at makeError (/Users/michal/Desktop/Projects/ui-components/node_modules/execa/lib/error.js:60:11)
+54 error     at handlePromise (/Users/michal/Desktop/Projects/ui-components/node_modules/execa/index.js:118:26)
+54 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+54 error     at async Promise.all (index 0)

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/mczapkowicz/lerna-test/compare/@maykelknight/test-2@0.2.1...@maykelknight/test-2@0.3.0) (2022-05-12)
+
+
+### Features
+
+* **test:** something ([d94bf0a](https://github.com/mczapkowicz/lerna-test/commit/d94bf0aaf07d857c84f331bb932460d6ec03847a))
+* **test:** test ([ad803b6](https://github.com/mczapkowicz/lerna-test/commit/ad803b62f65b54f89d6105567b0747e3a7aaf044))
+
+
+
+
+
 ## [0.2.1](https://github.com/mczapkowicz/lerna-test/compare/@maykelknight/test-2@0.2.0...@maykelknight/test-2@0.2.1) (2022-05-11)
 
 **Note:** Version bump only for package @maykelknight/test-2
