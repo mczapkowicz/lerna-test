@@ -1,5 +1,5 @@
 import React from 'react';
-import { Test1 } from '@keen.io/test-1';
+import {Test1} from "@maykelknight/test-1";
 
 const Test2 = () => (
   <div style={{ background: 'teal' }}>
