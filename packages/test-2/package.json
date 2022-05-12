@@ -10,7 +10,8 @@
     "lib": "dist"
   },
   "files": [
-    "dist"
+    "dist",
+    "typings"
   ],
   "scripts": {
     "prebuild": "rimraf dist && rimraf tsconfig.tsbuildinfo",
