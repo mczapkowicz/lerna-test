@@ -1,6 +1,6 @@
 {
   "name": "@maykelknight/test-1",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Test 1",
   "license": "MIT",
   "main": "src/index.ts",

@@ -49,7 +49,6 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "build": "turbo run build",
-    "create-version": "lerna version --conventional-commits",
     "prepublish": "node ./prepublish.js",
     "lint": "eslint --quiet --ext .ts --ext .tsx packages/",
     "prettier": "prettier --write 'packages/**/*.{js,ts,tsx,json}'",
