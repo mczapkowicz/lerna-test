@@ -16,9 +16,6 @@
     "prebuild": "rimraf dist && rimraf tsconfig.tsbuildinfo",
     "build": "tsc"
   },
-  "dependencies": {
-    "@maykelknight/test-1": "^0.3.1"
-  },
   "peerDependencies": {
     "react": "^18.1.0"
   },
