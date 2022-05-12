@@ -1,4 +1,4 @@
-54 error Error: Command failed with exit code 1: git commit -F /private/var/folders/8d/32b3hd5x66s8_kbf13h06kgh0000gn/T/3363e0a6-a950-4f1b-9387-9f6cb82afa78/lerna-commit.txt
+54 error Error: Command failed with exit code 1: git commit -F /private/var/folders/8d/32b3hd5x66s8_kbf13h06kgh0000gn/T/598031c7-98d9-4a0c-b6cb-21e0a9c0a964/lerna-commit.txt
 54 error
 54 error > test
 54 error > jest
@@ -9,12 +9,12 @@
 54 error Test Suites: 1 passed, 1 total
 54 error Tests:       1 passed, 1 total
 54 error Snapshots:   0 total
-54 error Time:        0.241 s, estimated 1 s
+54 error Time:        0.232 s, estimated 1 s
 54 error Ran all test suites.
 54 error ⧗   input: chore
 54 error
-54 error  - @maykelknight/test-1@0.7.0
-54 error  - @maykelknight/test-2@0.6.0
+54 error  - @maykelknight/test-1@0.8.0
+54 error  - @maykelknight/test-2@0.7.0
 54 error ✖   subject may not be empty [subject-empty]
 54 error ✖   type may not be empty [type-empty]
 54 error
