@@ -1,5 +1,5 @@
 import React from 'react';
-import Test2 from "./test2";
+import Test2 from './test2';
 
 export default {
   title: 'Test2',

@@ -11,7 +11,13 @@
     "@storybook/testing-library": "^0.0.11",
     "babel-loader": "^8.2.5",
     "lerna": "^4.0.0",
-    "commitizen": "^4.2.4"
+    "commitizen": "^4.2.4",
+    "husky": "^8.0.1",
+    "eslint": "^8.15.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.5.0"
   },
   "dependencies": {
     "@types/node": "^17.0.31",
@@ -25,7 +31,9 @@
     "build-storybook": "build-storybook",
     "build": "turbo run build",
     "create-version": "lerna version --conventional-commits",
-    "prepublish": "node ./prepublish.js"
+    "prepublish": "node ./prepublish.js",
+    "lint": "eslint --quiet --ext .ts --ext .tsx packages/",
+    "prettier": "prettier --write 'packages/**/*.{js,ts,tsx,json}'"
   },
   "husky": {
     "hooks": {

@@ -3,9 +3,9 @@
   "version": "0.3.1",
   "description": "Test 1",
   "license": "MIT",
-  "main": "src/index.ts",
-  "types": "src/index.d.ts",
-  "module": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.js",
+  "module": "dist/index.js",
   "directories": {
     "lib": "dist"
   },

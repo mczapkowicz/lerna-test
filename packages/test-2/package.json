@@ -3,9 +3,9 @@
   "version": "0.2.1",
   "description": "Test 2",
   "license": "MIT",
-  "main": "src/index.ts",
-  "types": "src/index.d.ts",
-  "module": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.js",
+  "module": "dist/index.js",
   "directories": {
     "lib": "dist"
   },
@@ -17,7 +17,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@keen.io/test-1": "^0.1.0"
+    "@maykelknight/test-1": "^0.1.0"
   },
   "peerDependencies": {
     "react": "^18.1.0"
